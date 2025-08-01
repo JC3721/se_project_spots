@@ -24,13 +24,40 @@
 
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <img
+          src="./images/Logo.svg"
+          alt="arrow pointing down at a dot with the text 'SPOTS'on the right"
+          class="header_logo"
+        />
+      </header>
       <main class="content">
-        <section class="profile"></section>
+        <section class="profile page__section">
+          <img
+            src="images/avatar.jpg"
+            alt="Image of Bessie Coleman"
+            class="profile__avatar"
+          />
+          <div class="profile__column">
+            <h1 class="profile__name">Bessie Coleman</h1>
+            <p class="profile__description">Civil Aviator</p>
+            <button type="button" class="profile__edit-button">
+              <img src="images/pencil.svg" alt="pencil icon for editing profile"
+              " />Edit Profile
+            </button>
+          </div>
+          <button type="button" class="profile__add-button">
+            <img
+              src="images/pluss-sign.svg"
+              alt="large button with text add post"
+            />
+            New Post
+          </button>
+        </section>
         <section class="cards"></section>
       </main>
       <footer class="footer">
-        <p>&copy; . All rights reserved.</p>
+        <p></p>
       </footer>
     </div>
   </body>
