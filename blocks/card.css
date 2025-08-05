@@ -1,0 +1,33 @@
+.card__image {
+  width: 413px;
+  height: 413px;
+}
+
+.card {
+  width: 413px;
+  height: 445px;
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__title {
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 120%;
+  margin: 12px 0 40px 0;
+}
+
+.card__like-button {
+  background: none;
+  border: none;
+  appearance: none;
+}
+
+.card__image_icon {
+  margin: 12px 0 40px 0;
+}

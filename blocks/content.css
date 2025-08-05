@@ -1,0 +1,9 @@
+.content {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.content__section {
+  display: flex;
+  justify-content: space-between;
+}
