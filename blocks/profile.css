@@ -1,6 +1,6 @@
 .profile {
   display: flex;
-  margin: 40px 80px 20px 80px;
+  padding-top: 34px;
   border-bottom: 1px solid rgba(33, 33, 33, 0.4);
 }
 
