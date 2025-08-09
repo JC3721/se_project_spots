@@ -54,3 +54,42 @@
   height: 52px;
   border-radius: 10%;
 }
+
+@media (max-width: 630px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile__avatar {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .profile__name {
+    text-align: center;
+  }
+  .profile__description {
+    text-align: center;
+  }
+  .profile__edit-button {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .profile__add-button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+}
